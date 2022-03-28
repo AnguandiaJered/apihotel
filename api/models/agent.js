@@ -40,9 +40,9 @@ const agentSchema = mongoose.Schema(
             type:mongoose.Schema.Types.ObjectId,
             ref:"Fonction"
         },
-        photo:[
-            String
-        ]
+        photo:{
+            type:String
+        }      
 
     },
 );

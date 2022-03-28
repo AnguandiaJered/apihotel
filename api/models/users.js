@@ -18,6 +18,14 @@ const userSchema = mongoose.Schema(
         role:{
             type:String,
             require:true
+        },
+        createAt: {
+            type: Date,
+            default: Date.now
+        },
+        deleted: {
+            type: Boolean,
+            default: false,
         }
     },
 );
