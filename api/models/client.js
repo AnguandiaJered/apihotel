@@ -23,9 +23,9 @@ const clientSchema = mongoose.Schema(
             type:String,
             require:true
         },
-        photo:[
-            String
-        ]
+        photo:{
+            type:String
+        }
     },
 );
 

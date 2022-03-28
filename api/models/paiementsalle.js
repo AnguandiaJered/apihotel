@@ -29,3 +29,5 @@ const paiementsalleSchema = mongoose.Schema(
         }
     },
 );
+
+module.exports = mongoose.model('Paiementsalle',paiementsalleSchema);

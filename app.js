@@ -44,7 +44,7 @@ app.use((req,res,next)=>{
 
 
 // this containes all about our routes and middlewires
-// app.use('/api/web/v1', routes);
+app.use(routes);
 
 // handling errors
 app.use((req,res,next)=>{
